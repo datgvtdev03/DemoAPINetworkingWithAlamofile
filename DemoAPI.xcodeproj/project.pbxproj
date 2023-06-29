@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B7787702A4C6BEB00A861AD /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B77876F2A4C6BEB00A861AD /* AddFriendViewController.swift */; };
 		9B91213A2A49D0A500D11036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121392A49D0A500D11036 /* AppDelegate.swift */; };
 		9B91213C2A49D0A500D11036 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91213B2A49D0A500D11036 /* SceneDelegate.swift */; };
-		9B91213E2A49D0A500D11036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91213D2A49D0A500D11036 /* ViewController.swift */; };
 		9B9121412A49D0A500D11036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B91213F2A49D0A500D11036 /* Main.storyboard */; };
 		9B9121432A49D0A600D11036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9121422A49D0A600D11036 /* Assets.xcassets */; };
 		9B9121462A49D0A600D11036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9121442A49D0A600D11036 /* LaunchScreen.storyboard */; };
 		9B9121512A49D0A600D11036 /* DemoAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121502A49D0A600D11036 /* DemoAPITests.swift */; };
 		9B91215B2A49D0A600D11036 /* DemoAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91215A2A49D0A600D11036 /* DemoAPIUITests.swift */; };
 		9B91215D2A49D0A700D11036 /* DemoAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91215C2A49D0A700D11036 /* DemoAPIUITestsLaunchTests.swift */; };
+		9B91216B2A49D0DA00D11036 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9B91216A2A49D0DA00D11036 /* Alamofire */; };
+		9B9121722A49D2F600D11036 /* ConversationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121712A49D2F600D11036 /* ConversationResponseModel.swift */; };
+		9B9121752A49D5AE00D11036 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121742A49D5AE00D11036 /* APIHandler.swift */; };
+		9B91217B2A49DB7200D11036 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121792A49DB7200D11036 /* ConversationTableViewCell.swift */; };
+		9B91217C2A49DB7200D11036 /* ConversationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B91217A2A49DB7200D11036 /* ConversationTableViewCell.xib */; };
+		9B9121892A49E71600D11036 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9121882A49E71600D11036 /* ConversationViewController.swift */; };
+		9BD443712A49EB750026C166 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9BD443702A49EB750026C166 /* Kingfisher */; };
+		9BD443752A49F0730026C166 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD443742A49F0730026C166 /* FriendsModel.swift */; };
+		9BD443782A49F2190026C166 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD443762A49F2190026C166 /* FriendsTableViewCell.swift */; };
+		9BD443792A49F2190026C166 /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BD443772A49F2190026C166 /* FriendsTableViewCell.xib */; };
+		9BD4437B2A49F4080026C166 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4437A2A49F4080026C166 /* FriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B77876F2A4C6BEB00A861AD /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		9B9121362A49D0A500D11036 /* DemoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9121392A49D0A500D11036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B91213B2A49D0A500D11036 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B91213D2A49D0A500D11036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B9121402A49D0A500D11036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B9121422A49D0A600D11036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9121452A49D0A600D11036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		9B9121562A49D0A600D11036 /* DemoAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B91215A2A49D0A600D11036 /* DemoAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAPIUITests.swift; sourceTree = "<group>"; };
 		9B91215C2A49D0A700D11036 /* DemoAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B9121712A49D2F600D11036 /* ConversationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationResponseModel.swift; sourceTree = "<group>"; };
+		9B9121742A49D5AE00D11036 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		9B9121792A49DB7200D11036 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		9B91217A2A49DB7200D11036 /* ConversationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationTableViewCell.xib; sourceTree = "<group>"; };
+		9B9121882A49E71600D11036 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		9BD443742A49F0730026C166 /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
+		9BD443762A49F2190026C166 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		9BD443772A49F2190026C166 /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		9BD4437A2A49F4080026C166 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD443712A49EB750026C166 /* Kingfisher in Frameworks */,
+				9B91216B2A49D0DA00D11036 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +121,12 @@
 		9B9121382A49D0A500D11036 /* DemoAPI */ = {
 			isa = PBXGroup;
 			children = (
+				9B9121812A49DCCC00D11036 /* Controller */,
+				9B9121762A49DABF00D11036 /* Views */,
+				9B9121732A49D57D00D11036 /* Handlers */,
+				9B91216C2A49D28200D11036 /* Models */,
 				9B9121392A49D0A500D11036 /* AppDelegate.swift */,
 				9B91213B2A49D0A500D11036 /* SceneDelegate.swift */,
-				9B91213D2A49D0A500D11036 /* ViewController.swift */,
 				9B91213F2A49D0A500D11036 /* Main.storyboard */,
 				9B9121422A49D0A600D11036 /* Assets.xcassets */,
 				9B9121442A49D0A600D11036 /* LaunchScreen.storyboard */,
@@ -127,6 +152,60 @@
 			path = DemoAPIUITests;
 			sourceTree = "<group>";
 		};
+		9B91216C2A49D28200D11036 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B9121702A49D2C200D11036 /* ResponseModels */,
+				9B91216D2A49D28C00D11036 /* RequestModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B91216D2A49D28C00D11036 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		9B9121702A49D2C200D11036 /* ResponseModels */ = {
+			isa = PBXGroup;
+			children = (
+				9B9121712A49D2F600D11036 /* ConversationResponseModel.swift */,
+				9BD443742A49F0730026C166 /* FriendsModel.swift */,
+			);
+			path = ResponseModels;
+			sourceTree = "<group>";
+		};
+		9B9121732A49D57D00D11036 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				9B9121742A49D5AE00D11036 /* APIHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		9B9121762A49DABF00D11036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B9121792A49DB7200D11036 /* ConversationTableViewCell.swift */,
+				9B91217A2A49DB7200D11036 /* ConversationTableViewCell.xib */,
+				9BD443762A49F2190026C166 /* FriendsTableViewCell.swift */,
+				9BD443772A49F2190026C166 /* FriendsTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B9121812A49DCCC00D11036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B9121882A49E71600D11036 /* ConversationViewController.swift */,
+				9BD4437A2A49F4080026C166 /* FriendsViewController.swift */,
+				9B77876F2A4C6BEB00A861AD /* AddFriendViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,10 @@
 			dependencies = (
 			);
 			name = DemoAPI;
+			packageProductDependencies = (
+				9B91216A2A49D0DA00D11036 /* Alamofire */,
+				9BD443702A49EB750026C166 /* Kingfisher */,
+			);
 			productName = DemoAPI;
 			productReference = 9B9121362A49D0A500D11036 /* DemoAPI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +298,10 @@
 				Base,
 			);
 			mainGroup = 9B91212D2A49D0A500D11036;
+			packageReferences = (
+				9B9121692A49D0DA00D11036 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9BD4436F2A49EB740026C166 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9B9121372A49D0A500D11036 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +318,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B91217C2A49DB7200D11036 /* ConversationTableViewCell.xib in Resources */,
+				9BD443792A49F2190026C166 /* FriendsTableViewCell.xib in Resources */,
 				9B9121462A49D0A600D11036 /* LaunchScreen.storyboard in Resources */,
 				9B9121432A49D0A600D11036 /* Assets.xcassets in Resources */,
 				9B9121412A49D0A500D11036 /* Main.storyboard in Resources */,
@@ -258,7 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B91213E2A49D0A500D11036 /* ViewController.swift in Sources */,
+				9B9121892A49E71600D11036 /* ConversationViewController.swift in Sources */,
+				9BD4437B2A49F4080026C166 /* FriendsViewController.swift in Sources */,
+				9B7787702A4C6BEB00A861AD /* AddFriendViewController.swift in Sources */,
+				9B9121722A49D2F600D11036 /* ConversationResponseModel.swift in Sources */,
+				9B91217B2A49DB7200D11036 /* ConversationTableViewCell.swift in Sources */,
+				9BD443782A49F2190026C166 /* FriendsTableViewCell.swift in Sources */,
+				9B9121752A49D5AE00D11036 /* APIHandler.swift in Sources */,
+				9BD443752A49F0730026C166 /* FriendsModel.swift in Sources */,
 				9B91213A2A49D0A500D11036 /* AppDelegate.swift in Sources */,
 				9B91213C2A49D0A500D11036 /* SceneDelegate.swift in Sources */,
 			);
@@ -596,6 +692,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B9121692A49D0DA00D11036 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9BD4436F2A49EB740026C166 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B91216A2A49D0DA00D11036 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B9121692A49D0DA00D11036 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9BD443702A49EB750026C166 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9BD4436F2A49EB740026C166 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B91212E2A49D0A500D11036 /* Project object */;
 }
